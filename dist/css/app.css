@@ -1,0 +1,120 @@
+body{
+    background-image: url(../../imgs/sample1.jpg);
+    background-size: cover;
+    color: rgb(61, 60, 60);
+}
+.main{
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    margin-top: 100px;
+    background-color: rgb(144, 147, 150,.5);
+    border-radius: 30px;
+    
+}
+.main h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 66, 66);
+    padding-top: 50px;
+    letter-spacing: 3px;
+}
+.form{
+    position: relative;
+}
+.form input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 30px auto 0;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+.form .error{
+    color: #f36e6e;
+    position: absolute;
+    left: 200px;
+    top: -20px;
+}
+.searchBox{
+    position: relative;
+}
+.searchBox .fa{
+    line-height: 40px;
+}
+.searchBox input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 30px auto 0;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+.fa-search{
+    color: cadetblue;
+    font-size: 1.5rem;
+
+    position: absolute;
+    left: 190px;
+    
+}
+
+.list{
+    margin-top: 30px;
+}
+ul li{
+   
+    width: 350px;
+    height: 50px;
+    margin: 5px auto 0;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    position: relative;
+}
+li .fa-circle-thin{
+    color: cadetblue;
+    font-size: 1.5rem;
+    line-height: 50px;
+    position: absolute;
+    left: 10px;
+}
+li .fa-check-circle{
+    color: cadetblue;
+    font-size: 1.5rem;
+    line-height: 50px;
+    position: absolute;
+    left: 10px;
+}
+li .fa-trash{
+    color: gray;
+    font-size: 1.3rem;
+    line-height: 50px;
+    position: absolute;
+    right: 10px;
+}
+ul li span{
+    background-color: #ffffff;
+    width: 350px;
+    height: 40px;
+    line-height: 50px;
+    
+}
+ul li input{
+    background-color: #ffffff;
+    width: 280px;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    text-align: center;
+    border: none;
+}
+.list__item--done{
+    background-color: rgb(128, 128, 128);
+}
+
